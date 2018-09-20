@@ -1,43 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
+
 <head>
-        <meta charset="utf-8" />
-        <title>First Post</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="my-cookbooks Atom Feed" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>my-cookbook - </title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Ken M. Lai(networktsukkomime.me)" />
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/html5.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/respond.min.js"></script>
+    <script type="text/javascript" src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+    <![endif]-->
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400" rel="stylesheet" type="text/css" />
+
+
+    <!-- CORE CSS FRAMEWORK -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- CSS TEMPLATE -->
+    <link href="/theme/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/framework.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="/theme/css/layout.css" rel="stylesheet" type="text/css" />
+
+    <link href="/theme/css/blog.css" rel="stylesheet" type="text/css" />
+
+    <!-- ICONS -->
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- Morenizr -->
+    <script type="text/javascript" src="/theme/js/modernizr.min.js"></script>
+
+    <!-- google authorship -->
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">my-cookbooks </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/category/how-to.html">How-to</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="/How to plot data with Pandas.html" rel="bookmark"
-           title="Permalink to First Post">First Post</a></h1>
-    </header>
+<!-- Main Nav -->
+<header id="header" style="margin-top:0">
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-09-18T20:00:00-04:00">
-                Published: Tue 18 September 2018
-        </abbr>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/chris-cirone.html">Chris Cirone</a>
-        </address>
-<p>In <a href="/category/how-to.html">How-to</a>.</p>
-<p>tags: <a href="/tag/python-pandas.html">python pandas</a> </p>
-</footer><!-- /.post-info -->      <style type="text/css">/*!
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand scrollTo" href="#home">
+          <img src="" alt="" width="50" height="50" />
+          <span class="hidden-xs">my-cookbook</span>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <!-- Fullscreen Button - Unavailable for IE -->
+        <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- If the user wants to make articles the home page then remove blog link, and make about and work links point to old home page. -->
+            <li><a href="/index.html#home">Home</a></li>
+            <li><a href="/index.html#about">About</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+              <ul class="dropdown-menu" style="background-color:#000">
+                <li style="background-color:#000"><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+                <li style="background-color:#000"><a href="http://python.org/" target="_blank">Python.org</a></li>
+                <li style="background-color:#000"><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+              </ul>
+            </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+</header>
+<!-- /Main Nav -->  <section id="blog">
+    <article class="container">
+
+      <div class="row">
+        <div id="blog_main_area" class="left col-md-9">
+  <!-- article title -->
+  <header>
+      <h1>Open and combine data from multiple files</h1>
+    <small class="fsize13">
+            <a href="/category/how-to.html" rel="tag tooltip" class="label label-default light" data-placement="right" data-original-title="3 articles in this category"><i class="fa fa-dot-circle-o"></i> How-to</a>
+      <a href="/open-and-combine-data-from-multiple-files.html#disqus_thread" class="scrollTo label label-default light" data-disqus-identifier="open-and-combine-data-from-multiple-files.html"><i class="fa fa-comment-o"></i> ?? Comments</a>
+      <span class="label label-default light">Tue 18 September 2018</span> 
+    </small>
+  </header>
+
+  <article class='content'>
+    <style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1013,18 +1077,65 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="My-First-Blog-post-with-Jupyter-and-Pelican">My First Blog post with Jupyter and Pelican<a class="anchor-link" href="#My-First-Blog-post-with-Jupyter-and-Pelican">&#194;&#182;</a></h2>
+<h3 id="Look-in-directory-for-files">Look in directory for files<a class="anchor-link" href="#Look-in-directory-for-files">&#194;&#182;</a></h3><h4 id="Find-by-file-extension">Find by file extension<a class="anchor-link" href="#Find-by-file-extension">&#194;&#182;</a></h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
 
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">DIR</span> <span class="o">=</span> <span class="s1">&#39;./tg1-parts/&#39;</span>
+<span class="n">EXTENSIONS</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;.html&#39;</span><span class="p">,</span><span class="s1">&#39;htm&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">file_list</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">DIR</span><span class="p">)</span>
+
+<span class="n">parts</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">file_list</span><span class="p">:</span>    
+    <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">EXTENSIONS</span><span class="p">):</span>     
+        <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_html</span><span class="p">(</span><span class="n">DIR</span><span class="o">+</span><span class="n">file</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>        
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Save the new dataframe to a CSV file</span>
+<span class="n">parts</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">DIR</span><span class="o">+</span><span class="s1">&#39;combined-parts-list.csv&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1036,194 +1147,37 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Use-Pandas-to-plot-data">Use Pandas to plot data<a class="anchor-link" href="#Use-Pandas-to-plot-data">&#194;&#182;</a></h3>
+<h4 id="Find-by-keyword">Find by keyword<a class="anchor-link" href="#Find-by-keyword">&#194;&#182;</a></h4>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
-
-<span class="n">df</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[3]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x9952198&gt;</pre>
-</div>
-
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-
-
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
-meijqGkadJ/qdlNN07E5c2DFiuib6tNP51dbFnQaMRy670cJGnXe2XQn3ae6dzbdTVXyasUeYal7
-/BF0oy5ymo5ppzrZNN2u7Hm1no0Ynro36qAz6qKy6U513qlOkk13U+a8WqcRw1PVnLr0GXUI03Ss
-zvepHnSajpU5r1bsEZ6659TBNuqis+l2dd2pHiSb7qasebUadZjqHH8E2ahDmqZjddypHnaable2
-vFrPRgxXnRt1kBl1KNl0u7rtVA+bTXdTprz66qujZrByZdGVSKcq5tSlzahDnKahfjvVaUzTsTLl
-1Yo9wlXnnDq4iTrEaTpWl/tUpzlNt/v4x2HdunDvX63TiOGr2v2pSzlRhzpNx+qyU53mNN0u9Lxa
-pxHDV9ecOqhGHdKmRy9Vv6g46qbHVKZPjz72VVdF35RDo9gjfHV9jmIw0Ufe95seVtXvU93tftNp
-C/H+1e4we3bUBObPL7oamUqV7k9duuijDNM0VHunOstpul2I+9Vr10bfoNSkw1fH+COIRh16Nt2p
-qvFHVtl0N6Hl1Yo9yqOOjTqI6CPkTY9uqrhTndWmx1RC2q/WsxHLo0r71KlHH2Y2zczWmtk3Rytt
-srJN01DNneo8p+lYKPvVOo1YLnXcpx4k+rgI2JB2AWXJpjtV6T7VeWXT3YSQV+vZiOVTt/gjUaM2
-sznAqcA1aX7yMk7TsSrtVBcxTbcrOq9WPl0+dWvUiTJqM7sF+CywL/BP7n5al9cMnFGXLZvuVIX7
-VBeRTXdTVF6t04jlVJWcOmlG3feHPTN7O/CUu99vZg2g5wcdHx/f9Xaj0aDRaPT8uGWepmOLF0fH
-ordvL+9/5EVP07H2vDrP/WqdRiyn9py6TPvUzWaT5hA/CvSdqM1sGXAWsBPYG9gH+Jq7v7/jdQNN
-1GWfpmNnngknnADnn190JYMLZZpul/f9QM47Dw49FD784ew/l6SrCvf9SG3rw90/4e4Huvs8YDHw
-/c4mPagqTNOxMu9UhzJNt8szr9azEcutTjl1IQdeyrrp0U18N72yrQoVuekxlTzvB6LTiOVWp/t+
-DNSo3f0H3S4kDqJK0zSUd6c6xGk6ltd+tbY9yq1O+9S5T9RVmqZjZdupDnWabpfHfrUadfnVJf7I
-tVFXbZqOlW2nOuRpul2WefW2bfDEEzqNWHZq1Bmo4jQdK8tFxTJM07Es82qdRqyGuuTUuTXqqk7T
-scWL4c47o53qkJVlmo5llVevWqVtjyqoS06dW6Ou8jQN5bhPdZmm6XZp59UTE9GJ0lNOGf1jSfHq
-EH/k0qirPk3HQo8/yjZNt0szr9ZpxGqpQ6PO5X7UVTmF2E/I96kO8RTioNK6H4hOI1ZLme/7Ecyj
-uOoyTUPYO9VlnqZjaeTV8WlEreVVRx1y6swbddWz6U4h7lSXNZvuZtS8Oj6NeMgh6dcmxal6/JFp
-o67TNB0Lcae6CtN0u1Hyah1yqaaqN+pMM+q6ZNOdQrpPdRWy6W6Gzav1bMRqKmtOnTSjzqxRr14d
-xQAbN9Yn9oht3w5z50bP4St6s2DJkuhH/VCe9p2mO+6ILgwmvX/1tm3w2tdG/zHroEv1zJsXXX8o
-0/2pC7+YWLdsul0oO9VVyqa7GTSv1mnEaqty/JFJo65jNt0phJ3qqmXT3QySV+s0YrVVuVFnEn3U
-NZtuV/ROdVWz6W6S5NV6NmL1lTGnLiz60DQdKXqnug7TdCzJfrVOI1ZflfepU2/Udc6mOxW1U131
-bLqbfnm11vLqoarxR6qNWtP0ZEXtVNdpmm7XK6/WacT6qGqjTjWjPvFEr3023Snvneo6ZdPddMur
-77svikU2biy2Nsle2XLq1DJqM3upmf3YzNaZ2XozW9rrtZqmd5f3farrOk3HuuXVij3qo6o5dd9G
-7e5/BE5w96OAI4G3mdnrur1W2fTu8typrmM23U1nXq1GXS9VjD8SZdTuPtF686XAdKBrXqJpuru8
-dqrrPk23i/Pqiy7SsxHrpoqNOlFGbWbTgPuAg4Hl7v7xLq/peT/qustjp7ru2XQ3W7fCkUdGP9Hc
-cEPR1Uhe4pz6ySfDP4WaNKNO9K/h7i8AR5nZLODrZrbA3Td0vm58fHzX241Gg0ajkbjgKmvfqb78
-8mw+h6bp3c2ZA9/5DsyYUXQlkqexsWhn/tJLYdmyoquZrNls0hxi3B9468PM/hn4vbtf2fF+TdRT
-2LABTj4ZNm+GPfZI92NrmhaZ7Ne/hqOPhmuuCfvZmGlufbzCzPZtvb03cDLws9FLrJcsd6o1TYtM
-dsABsHJldH1o69aiqxld34nazF4DXEvU1KcBN7v7Z7u8ThN1H1nsVGuaFult2bLodrj33BNmXl34
-/ahld1ncp7rK95sWGdULL0TrmgsXhpdXgxp1sM48E044Ac4/f/SPpWlapL+Q8+rCHxwg3aW5U61s
-WqS/KuTVmqhzltZOtaZpkcGEmFdrog5UWvep1jQtMphLLol26i+9tOhKBqeJugCj7lRrmhYZTmh5
-tSbqgI26U61pWmQ4Zc2rNVEXZNidak3TIqMLJa/Wel7ght2p1t60yOhC2a9Woy6BQXeqNU2LpCeE
-vFoZdQkMulOtbFokPWXKqzVRF2iQnWpN0yLZKDKv1kRdAoPsVGuaFslGGfarNVEXLMlOtaZpkWwV
-lVdroi6JJDvVmqZFshV6Xq2JOgBT7VRrmhbJT955tdbzSmSqnWrtTYvkJ+/9ajXqkum2U61pWiR/
-eebVyqhLpttOtbJpkfyFmFcneWbiHOA64JXAC8B/uPu/d3mdJuoRdO5Ua5oWKVYeeXWaE/VO4MPu
-fjjwN8CHzOzQUQuUyTp3qjVNixQrpP3qgTNqM/s68Hl3v7vj/ZqoRxTvVP/oR1FGpmlapFhZ59WZ
-XEw0s4OAJvDX7r6j439To07BccfBH/4Q/aXQpodI8X74Q3jPe+CnP43OPKQp9YuJZjYTuBW4qLNJ
-S3o+8AH4+c/hIx8puhIRAXjTm+DCC+G9742uJRUh0URtZtOB24E73P2qHq/xpUuX7vpzo9Gg0Wik
-VGZ9/OEPsH49HHts0ZWISCyt/epms0mz2dz158suuyy96MPMrgN+4+4fnuI1ij5EpLKyyKtTy6jN
-bBHwQ2A94K1fn3D3Oztep0YtIpWWdl6tk4kiIhlIc79aJxNFRDJQxH61JmoRkQGllVdrohYRyUje
-9wNRoxYRGUKe+9Vq1CIiQ8orr1ZGLSIyglHyamXUIiI5yCOvVqMWERlR1nm1GrWISAqyzKuVUYuI
-pGTQvFoZtYhIzrLKq9WoRURSlEVerUYtIpKytPNqZdQiIhlIklcroxYRKVCaebUatYhIRtLKq9Wo
-RUQylEZerYxaRCRjvfJqZdQiIoEYNa/u26jN7Etm9pSZPThEfSIiwmh5dZKJegXw1mEKC02z2Sy6
-hERUZ7pUZ7pU5/CGzav7Nmp3XwNsH7KuoIT4f1w3qjNdqjNdqnN406bB9dfDddfBnXcm/+dGfNi5
-iIgMIs6r3/Oe5P+MLiaKiOQszquTSrSeZ2ZjwCp3f+0Ur9FunojIgJKs5yWNPqz1a6RPJiIig0uy
-nrcS+G9gvpltNrO/y74sERGJpXYyUUREsjHyxUQzO8XMfmZmj5rZx9IoKm1lObRjZnPM7Ptm9rCZ
-rTezAS435MfMXmpmPzazda06lxZdUy9mNs3M1prZN4uupRcze8LMHmh9PX9SdD29mNm+ZnaLmT3S
-+jt6XNE1dTKz+a2v49rW788E/N/RxWb2kJk9aGY3mNlLer52lInazKYBjwInAk8C9wKL3f1nQ3/Q
-DJjZG4EdwHVTXRAtmpm9CniVu99vZjOB+4B3hfb1BDCzGe4+YWZ7AD8CLnT34JqMmV0MLARmuftp
-RdfTjZk9Dix096DPK5jZl4EfuPsKM5sOzHD3Zwsuq6dWf9oKHOfuW4qup52ZvRpYAxzq7v9nZjcD
-33L367q9ftSJ+nXA/7r7Jnf/E3AT8K4RP2bqynJox91/5e73t97eATwCzC62qu7cfaL15kuJLkoH
-l6GZ2RzgVOCaomvpwwh8VdbMZgHHu/sKAHffGXKTbjkJeCy0Jt1mD+Bl8Tc9omG3q1H/cswG2r8I
-Wwm0sZSNmR0EHAn8uNhKumtFCuuAXwF3ufu9RdfUxb8CHyXAbyIdHLjLzO41sw8WXUwPc4HfmNmK
-VqxwtZntXXRRfZwJ3Fh0Ed24+5PAFcBmYBvwO3f/Xq/XB/1dvK5ascetwEWtyTo47v6Cux8FzAGO
-M7MFRdfUzszeDjzV+gml73ppwRa5+9FE0/+HWlFdaKYDRwPLW7VOAJcUW1JvZrYncBpwS9G1dGNm
-LydKH8aAVwMzzex9vV4/aqPeBhzY9uc5rffJkFo/Bt0KXO/u3yi6nn5aP/7eA/R4KlxhFgGntfLf
-G4ETzKxr/lc0d/9l6/engduIIsXQbAW2uPtPW3++lahxh+ptwH2tr2mITgIed/ffuvvzwNeAN/R6
-8aiN+l7gr8xsrHXFcjEQ6tX10Keq2H8CG9z9qqIL6cXMXmFm+7be3hs4GQjqgqe7f8LdD3T3eUR/
-L7/v7u8vuq5OZjaj9RMUZvYy4C3AQ8VWtTt3fwrYYmbzW+86EdhQYEn9vJdAY4+WzcDrzWwvMzOi
-r+cjvV480k2Z3P15M/sH4LtETf9L7t7zkxWldWinAfy5mW0GlsYXRUJiZouAvwXWt/JfBz7h7gPc
-ZysXfwFc27qqPg242d2/XXBNZfVK4LbWLRimAze4+3cLrqmXC4EbWrHC40CQh9/MbAbRxHpe0bX0
-4u4/MbNbgXXAn1q/X93r9TrwIiISOF1MFBEJnBq1iEjg1KhFRAKnRi0iEjg1ahGRwKlRi4gETo1a
-RCRwatQiIoH7f7hWUJ9vRI/AAAAAAElFTkSuQmCC
-"
->
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Look-through-sub-directories">Look through sub-directories<a class="anchor-link" href="#Look-through-sub-directories">&#194;&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
 </div>
@@ -1263,38 +1217,170 @@ RCRwatQiIoH7f7hWUJ9vRI/AAAAAAElFTkSuQmCC
 }
 </script>
 
-    </div><!-- /.entry-content -->
-
   </article>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
+
+  <div class="divider"><!-- lines divider --></div>
+
+  <!-- SOCIAL -->
+<p class="socials">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=/open-and-combine-data-from-multiple-files.html" class="rounded-icon social fa fa-facebook" target="_blank" title="Share on Facebook"><!-- facebook --></a>
+    <a href="http://twitter.com/home?status=/open-and-combine-data-from-multiple-files.html" class="rounded-icon social fa fa-twitter" target="_blank" title="Share on Twitter"><!-- twitter --></a>
+    <a href="https://plus.google.com/share?url=/open-and-combine-data-from-multiple-files.html" class="rounded-icon social fa fa-google-plus" target="_blank" title="Share on Google+"><!-- google plus --></a>
+    <a href="http://pinterest.com/pin/create/link/?url==/open-and-combine-data-from-multiple-files.html" class="rounded-icon social fa fa-pinterest"  target="_blank" title="Share on Pinterest"><!-- pinterest --></a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=/open-and-combine-data-from-multiple-files.html&title=Open and combine data from multiple files&summary=&source=" class="rounded-icon social fa fa-linkedin" target="_blank" title="Share on Linkedin"><!-- linkedin --></a>
+</p>  
+
+  <!-- TAGS -->
+  <p class="fsize16"> Tags:
+        <a href="/tag/python-pandas-os.html" rel="tooltip" class="label label-default light" data-placement="right" data-original-title="1 article with this tag"><i class="fa fa-tags"></i> python pandas os</a>
+  </p>
+
+  <hr /><!-- divider -->
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="right col-md-3">
+          <!-- recent work -->
+          <!-- <div class="widget">
+
+                      <h3>Recent Work</h3>
+
+                      <a class="popup-image thumb" href="assets/images/preview/slider/1.jpg">
+                          <img src="/theme/img/1x1.png" class="img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
+                      </a>
+                      <a class="popup-video thumb" href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
+                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
+                      </a>
+                      <a class="popup-video thumb" href="http://vimeo.com/23630702">
+                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
+                      </a>
+
+                      <a class="external ajax-project thumb" href="project-external-1.html">
+                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
+                      </a>
+                      <a class="external ajax-project thumb" href="project-external-2.html">
+                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
+                      </a>
+                      <a class="external ajax-project thumb" href="project-external-3.html">
+                          <img src="/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
+                      </a>
+
+                      <div class="clearfix"></div>
+                  </div> -->
+
+          <!-- categories -->
+          <div class="widget">
+
+            <h3>Categories</h3>
+
+            <ul>
+               <li><a class="theme_link" href="/category/how-to.html"><i class="fa fa-dot-circle-o"></i> How-to</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <!-- Archives -->
+          <div class="widget">
+
+            <h3>Archives</h3>
+
+            <!-- Get all of the articles with their dates -->
+            <div class="hidden">
+                None
+                None
+                None
+            </div>
+
+            <!-- If the user indicates they prefer a list.-->                <ul class="tree">
+                    <li>
+                        <span><i class="fa fa-minus-square-o"></i>2018</span>
                         <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li>
+                                <span><i class="fa fa-plus-square-o"></i>2018-09</span>
+                                <ul>
+                                        <li style="display: none;">
+                                            <a class="theme_link" href="/binning-temperature-data.html">
+                                            <small>Thu 20 September 2018</small>Binning Temperature Data</a>
+                                        </li>
+                                        <li style="display: none;">
+                                            <a class="theme_link" href="/plotting-with-pandas.html">
+                                            <small>Wed 19 September 2018</small>Plotting with Pandas</a>
+                                        </li>
+                                        <li style="display: none;">
+                                            <a class="theme_link" href="/open-and-combine-data-from-multiple-files.html">
+                                            <small>Tue 18 September 2018</small>Open and combine data from multiple files</a>
+                                        </li>
+                                </ul>
+                            </li>
+                        </ul></li>
+                </ul></div>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        </div>
+        <!-- /SIDEBAR -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+      </div>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+    </article>
+  </section>
+  <!-- /BLOG -->
+
+<!-- FOOTER -->
+<footer>
+
+  <!-- SCROOL TO TOP -->
+  <a href="#toTop" class="fa fa-arrow-up toTop"></a>
+
+  <div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 copyright">
+            my-cookbook
+            <br />2015 &copy; All Rights Reserved.
+        </div>
+
+        <div class="col-md-6 text-right">
+              <a href="https://www.thingiverse.com/Ccirone2" class="social fa fa-thingiverse" target="_blank"></a>
+              <a href="#" class="social fa fa-another social link" target="_blank"></a>
+        </div>
+
+    </div>
+
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+
+<!-- CORE FILES -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="/theme/js/masonry.js"></script>
+
+<!-- PLUGINS -->
+<script type="text/javascript" src="/theme/js/jquery.fitvids.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.appear.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.superslides.min.js"></script>
+<script type="text/javascript" src="/theme/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="/theme/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="/theme/js/holder.js"></script>
+<!-- delete on production -->
+
+<!-- js scripts -->
+<script async type="text/javascript" src="/theme/js/scripts.js"></script>
+
+<script type="text/javascript" src="/theme/js/ImageAutoResize.js"></script>
+<script type="text/javascript" src="/theme/js/application.js"></script>
+
+
+
+
 
 </body>
+
 </html>
