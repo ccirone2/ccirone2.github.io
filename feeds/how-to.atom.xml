@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>my code palette</title><link href="/" rel="alternate"></link><link href="/feeds/how-to.atom.xml" rel="self"></link><id>/</id><updated>2018-09-18T00:00:00-04:00</updated><entry><title>Binning Temperature Data</title><link href="/binning-temperature-data.html" rel="alternate"></link><published>2018-09-18T00:00:00-04:00</published><updated>2018-09-18T00:00:00-04:00</updated><author><name>Chris Cirone</name></author><id>tag:,2018-09-18:binning-temperature-data.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>my-code-palette</title><link href="/" rel="alternate"></link><link href="/feeds/how-to.atom.xml" rel="self"></link><id>/</id><updated>2018-09-18T00:00:00-04:00</updated><entry><title>Binning Temperature Data</title><link href="/binning-temperature-data.html" rel="alternate"></link><published>2018-09-18T00:00:00-04:00</published><updated>2018-09-18T00:00:00-04:00</updated><author><name>Chris Cirone</name></author><id>tag:,2018-09-18:binning-temperature-data.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
