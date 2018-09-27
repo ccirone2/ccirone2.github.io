@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /author/
+
+User-agent: *
+Disallow: /images/
+
+User-agent: *
+Disallow: /drafts/
