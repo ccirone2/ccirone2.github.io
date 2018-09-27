@@ -1,1 +1,1 @@
-.dataframe {font-size: 11px; table-layout : fixed;}
+table.dataframe {font-size: 12px; width: 100%; table-layout: auto;}
