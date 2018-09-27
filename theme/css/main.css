@@ -7,7 +7,7 @@ body { line-height: 1.4; color: rgba(0, 0, 0, 0.8); }
 
 html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 
-table.dataframe {font-size: 11px; table-layout : fixed;}
+table.dataframe {font-size: 12px; width: 100%; table-layout: fixed;}
 
 div.metabar-container { height: 65px; position: absolute; top: 0; height: 65px; width: 100%; }
 div.metabar-container div.metabar { height: 100%; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
