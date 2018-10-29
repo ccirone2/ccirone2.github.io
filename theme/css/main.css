@@ -11,15 +11,17 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: 
 
 table.dataframe, .dataframe th, .dataframe td {
   border: none;
-  border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
   text-align:left;
   padding: 10px;
   margin-bottom: 10px;
-  font-size: 0.6em;
+  font-size: 0.75em;
 }
 .dataframe th {
   color: black;
+}
+.dataframe td {
+  border-bottom: 1px solid #C8C8C8;
 }
 
 /* END Pretty Pandas Dataframes */
