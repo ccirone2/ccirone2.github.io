@@ -9,41 +9,22 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: 
 
 /* Pretty Pandas Dataframes */
 
-table{background-color: rgba(0, 0, 0, 0);
-border-bottom-color: rgb(0, 0, 0);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-collapse: collapse;
-border-image-outset: 0px;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(0, 0, 0);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(0, 0, 0);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(0, 0, 0);
-border-top-style: none;
-border-top-width: 0px;
-box-sizing: border-box;
-color: rgb(0, 0, 0);
-display: table;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 12px;
-height: 1675px;
-line-height: 20px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 12px;
-table-layout: fixed;
-text-size-adjust: 100%;
-width: 700px;
--webkit-border-horizontal-spacing: 0px;
--webkit-border-vertical-spacing: 0px;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.75em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: transparent;
+}
+.dataframe th {
+  color: black;
+}
+.dataframe td {
+  border-bottom: 1px solid #C8C8C8;
+}
 
 /* END Pretty Pandas Dataframes */
 
