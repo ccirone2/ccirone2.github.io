@@ -18,11 +18,11 @@ table.dataframe, .dataframe th, .dataframe td {
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
 }
-.dataframe {
+.output_wrapper {
   background-color: white;
 }
 .dataframe th {
-  color: green;
+  color: blue;
 }
 .dataframe tbody {
   border-top: 2px solid black;  
