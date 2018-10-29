@@ -30,7 +30,7 @@ table.dataframe {
 .dataframe tbody>tr {    
   border-bottom: 1px solid #C8C8C8;
 }
-.dataframe tr:nth-child(even) {
+.dataframe tbody>tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
