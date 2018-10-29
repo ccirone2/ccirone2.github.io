@@ -16,6 +16,7 @@ table.dataframe, .dataframe th, .dataframe td {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 0.75em;
+  background-color: transparent;
 }
 .dataframe th {
   color: black;
