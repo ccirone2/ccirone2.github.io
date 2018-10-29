@@ -7,6 +7,18 @@ body { line-height: 1.4; color: rgba(0, 0, 0, 0.8); }
 
 html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 
+/* Pretty Pandas Dataframes */
+.dataframe * {border-color: #c0c0c0 !important;}
+.dataframe th{background: #eee;}
+.dataframe td{text-align: right; min-width:5em;}
+
+/* Format summary rows */
+.dataframe-summary-row tr:last-child,
+.dataframe-summary-col td:last-child{
+    background: #eee;
+    font-weight: 500;
+}
+
 div.metabar-container { height: 65px; position: absolute; top: 0; height: 65px; width: 100%; }
 div.metabar-container div.metabar { height: 100%; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
 
@@ -68,7 +80,7 @@ div.post-meta div.meta-data a.author { color: inherit; }
 div.post-meta div.meta-data a.author:hover { color: rgba(0, 0, 0, 0.6); }
 
 div.page-container { text-align: center; margin-top: 80px; }
-div.page-container div.entry-content { max-width: 1050px; margin: 0 auto; text-align: left; font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.5; padding: 20px; }
+div.page-container div.entry-content { max-width: 950px; margin: 0 auto; text-align: left; font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; line-height: 1.5; padding: 20px; }
 @media screen and (min-width: 35.5em) { div.page-container div.entry-content { font-size: 20px; } }
 div.page-container footer { margin: 0 auto; text-align: left; max-width: 700px; }
 div.page-container footer div.post-footer { padding: 20px; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 30px 0 40px 0; }
