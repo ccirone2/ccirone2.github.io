@@ -12,20 +12,17 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: 
 table.dataframe, .dataframe th, .dataframe td {
   border: none;
   border-collapse: collapse;
-  text-align:left;
+  text-align:right;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
 }
-.output_html {
-  background-color: white;
-}
-.output_html>div {
+.dataframe {
   background-color: white;
 }
 .dataframe th {
-  color: blue;
+  color: green;
 }
 .dataframe tbody {
   border-top: 2px solid black;  
