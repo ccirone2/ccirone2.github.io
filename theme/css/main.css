@@ -8,7 +8,13 @@ body { line-height: 1.4; color: rgba(0, 0, 0, 0.8); }
 html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 
 /* Pretty Pandas Dataframes */
-.dataframe * {border-color: #c0c0c0 !important;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
 .dataframe th{background: #eee;}
 .dataframe td{text-align: right; min-width:5em;}
 
@@ -18,6 +24,7 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: 
     background: #eee;
     font-weight: 500;
 }
+/* END Pretty Pandas Dataframes */
 
 div.metabar-container { height: 65px; position: absolute; top: 0; height: 65px; width: 100%; }
 div.metabar-container div.metabar { height: 100%; box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
