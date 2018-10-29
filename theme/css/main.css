@@ -17,7 +17,7 @@ table.dataframe, .dataframe th, .dataframe td {
   margin-bottom: 10px;
   font-size: 12px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: transparent;
+  background-color: blue;
 }
 .dataframe th {
   color: black;
