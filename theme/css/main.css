@@ -8,23 +8,20 @@ body { line-height: 1.4; color: rgba(0, 0, 0, 0.8); }
 html, button, input, select, textarea, .pure-g [class*="pure-u"] { font-family: "Open Sans", jaf-bernino-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 
 /* Pretty Pandas Dataframes */
+
 table.dataframe, .dataframe th, .dataframe td {
   border: none;
   border-bottom: 1px solid #C8C8C8;
   border-collapse: collapse;
   text-align:left;
   padding: 10px;
-  margin-bottom: 40px;
-  font-size: 0.9em;
+  margin-bottom: 10px;
+  font-size: 0.6em;
 }
 .dataframe th {
-    background-color: #add8e6;
-    color: white;
+  color: black;
 }
-tr:nth-child(odd)	{ background-color:#eee; }
-tr:nth-child(even)	{ background-color:#fff; }
 
-tr:hover            { background-color: #ffff99;}
 /* END Pretty Pandas Dataframes */
 
 div.metabar-container { height: 65px; position: absolute; top: 0; height: 65px; width: 100%; }
